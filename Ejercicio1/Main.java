@@ -1,3 +1,5 @@
+// En el readme está el análisis para encontrar la solución
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
