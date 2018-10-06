@@ -1,6 +1,9 @@
 # Estructura-de-Datos-y-Algoritmos-2
 Examen parcial para la materia de Estructura de Datos y Algoritmos 2
 
+**Mark Octavio Rivera Acosta**
+**Enrique Anaya Bovio**
+
 ### Ejercicio 1 -¿Más grande implica más inteligente?-
 
 **Enunciado:** Algunas personas creen que mientras ma ́s grande sea un elefante, ma ́s inteligente es. Para refu- tar esto, usted quiere tomar los datos en una coleccio ́n de elefantes y organizar un subconjunto de estos datos, tan grande como sea posible, en una secuencia donde el taman ̃o sea creciente, pero el CI (Coeficiente Intelectual) sea decreciente.
