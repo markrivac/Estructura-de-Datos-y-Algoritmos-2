@@ -45,20 +45,20 @@ public class Main {
         }
 
         System.out.println(max);
-        int[] solution = new int[max];
+        int[] soluciones = new int[max];
 
         boolean first = true;
         int last = 0;
         for (int i = noMaximoElefantes.length - 1; i >= 0 && max > 0; i--) {
             if (noMaximoElefantes[i] == max && (first || last < arrayElefantes[i].iq)) {
                 last = arrayElefantes[i].iq;
-                solution[--max] = arrayElefantes[i].id;
+                soluciones[--max] = arrayElefantes[i].id;
                 first = false;
             }
         }
 
-        for (int i = 0; i < solution.length; i++) {
-            System.out.println(solution[i]);
+        for (int i = 0; i < soluciones.length; i++) {
+            System.out.println(soluciones[i]);
         }
     }
 }
